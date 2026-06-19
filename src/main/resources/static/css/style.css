@@ -1,0 +1,53 @@
+body{
+    background:#e6e63b;
+    font-family:Segoe UI, 'Lucida Sans';
+}
+
+.container{
+    width:800px;
+    margin:50px auto;
+    background:rgb(169, 236, 219);
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+    color:#4f0606;
+}
+
+form{
+    display:flex;
+    gap:10px;
+    margin-top:25px;
+}
+
+input{
+    flex:1;
+    padding:14px;
+    border:1px solid #ddd;
+
+    border-radius:10px;
+}
+
+button{
+    padding:14px 20px;
+    border:none;
+    border-radius:10px;
+    background:#040c60;
+    color:rgb(195, 201, 238);
+    cursor: pointer;
+}
+
+button:hover{
+    opacity:.9;
+}
+
+h3{
+    margin-top:25px;
+}
+
+p{
+    line-height:1.6;
+}

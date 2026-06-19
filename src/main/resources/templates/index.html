@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Grandma's Bag of Stories</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>📚 Grandma's Bag of Stories</h1>
+
+    <form action="/ask" method="post">
+
+        <input
+                type="text"
+                name="question"
+                placeholder="Ask a question..."
+                required>
+
+        <button type="submit">
+            Ask
+        </button>
+
+    </form>
+
+    <div th:if="${question}">
+        <h3>Your Question</h3>
+        <p th:text="${question}"></p>
+    </div>
+
+    <div th:if="${answer}">
+        <h3>Answer</h3>
+        <p th:text="${answer}"></p>
+    </div>
+
+</div>
+
+</body>
+</html>
