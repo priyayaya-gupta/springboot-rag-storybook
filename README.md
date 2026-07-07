@@ -13,4 +13,4 @@ A Retrieval-Augmented Generation (RAG) application built with Spring Boot and Qd
 - Java
 - Spring Boot
 - Qdrant
-- Ollama/OpenAI/Gemini (jo bhi use kiya hai)
+- Ollama
